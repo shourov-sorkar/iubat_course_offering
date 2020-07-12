@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header_image{
+	text-align: center;
+	margin-top: 50px;
+}
+.notice{
+	margin-top: 10px;
+	box-shadow: 0 0 10px;
+	font-size: 20px;
+	color: black;
+}
+.notice marquee{
+	padding-top: 10px;
+
+}
+.user{
+	text-align: center;
+}
+.pass{
+	text-align: center;
+}
+.first {
+    height: 56px;
+    width: 370px;
+    text-align: center;
+    border-radius: 37px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 5px 5px 10px;
+    border: none;
+    margin-top: 30px;
+    transition: .9s;    
+}
+.first:focus{
+    outline: none;
+    width: calc(400px + 50px);
+    height:calc(46px + 10px) ;
+}
+.last{
+    height: 56px;
+    width: 370px;
+    text-align: center;
+    border-radius: 37px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 5px 5px 10px;
+    border: none;
+    margin-top: 30px;
+    transition: .9s;    
+}
+.last:focus{
+    outline: none;
+    width: calc(400px + 50px);
+}
+.sub{
+	height: 46px;
+    width: 144px;
+    border-radius: 37px;
+    text-align: center;
+    margin-top: 57px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: none;
+}
+.btn{
+	text-align: center;
+}
+.sub:hover{
+	cursor: pointer;
+	border: 1px solid blue;
+	box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+	color: #2C5364;
+}
